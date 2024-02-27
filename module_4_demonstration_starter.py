@@ -72,7 +72,7 @@ try:
                    + f"{RECOMMENDED_INCREASE} increase.")
 
 
-            salary *= (1 - RECOMMENDED_INCREASE)
+            salary *= (1 + RECOMMENDED_INCREASE)
             new_data.append([title,name,salary])
 
 except Exception as e:
